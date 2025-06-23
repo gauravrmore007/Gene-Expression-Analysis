@@ -35,34 +35,19 @@ Save this file into the `data/` folder and rename it if needed (e.g., `your_file
 2. **Run the analysis**:
    python script.py
 
-🧪 Analysis Steps
-Load and filter single-cell data
 
-Normalize and log-transform gene counts
+##🔬 Pipeline Steps
+Load and filter scRNA-seq data
+Normalize and transform
+PCA + UMAP for visualization
+Cluster with Leiden algorithm
+Detect marker genes
 
-Identify highly variable genes
+##📊 Outputs
+UMAP plot of clusters
+PCA plot
+Marker gene heatmap
 
-Perform PCA and UMAP for visualization
-
-Cluster cells using Leiden algorithm
-
-Identify marker genes for each cluster
-
-📊 Output Examples
-Clustered UMAP plot: figures/umap_clusters.png
-
-PCA plot: figures/pca_plot.png
-
-Marker heatmap: figures/markers.png
-
-📌 Notes
-The .h5 file must be placed in the data/ folder.
-
-File name should match the one in the script (your_file.h5) or be updated accordingly.
-
-🧠 Future Ideas
-Compare healthy vs diseased samples
-
-Build a web app for interactive exploration
-
-Use machine learning to classify cell types
+##🧠 Extensions
+Add sample comparison (e.g. healthy vs diseased)
+Train ML model for cell type classification
