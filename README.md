@@ -33,21 +33,29 @@ Save this file into the `data/` folder and rename it if needed (e.g., `your_file
    pip install -r Requirement.txt
 
 2. **Run the analysis**:
+    ```bash
    python script.py
 
 
-##🔬 Pipeline Steps
+🔬 Pipeline Steps
 Load and filter scRNA-seq data
+
 Normalize and transform
+
 PCA + UMAP for visualization
+
 Cluster with Leiden algorithm
+
 Detect marker genes
 
-##📊 Outputs
+📊 Outputs
 UMAP plot of clusters
+
 PCA plot
+
 Marker gene heatmap
 
-##🧠 Extensions
+🧠 Extensions
 Add sample comparison (e.g. healthy vs diseased)
+
 Train ML model for cell type classification
