@@ -37,25 +37,21 @@ Save this file into the `data/` folder and rename it if needed (e.g., `your_file
    python script.py
 
 
-🔬 Pipeline Steps
-Load and filter scRNA-seq data
+## 🔬 Pipeline Steps
+- Load and filter scRNA-seq data
+- Normalize and transform
+- PCA + UMAP for visualization
+- Cluster with Leiden algorithm
+- Detect marker genes
 
-Normalize and transform
+## 📊 Outputs
+- UMAP plot of clusters
+- PCA plot
+- Marker gene heatmap
 
-PCA + UMAP for visualization
+## 🧠 Extensions
+- Add sample comparison (e.g. healthy vs diseased)
+- Train ML model for cell type classification
 
-Cluster with Leiden algorithm
-
-Detect marker genes
-
-📊 Outputs
-UMAP plot of clusters
-
-PCA plot
-
-Marker gene heatmap
-
-🧠 Extensions
-Add sample comparison (e.g. healthy vs diseased)
-
-Train ML model for cell type classification
+## 👨‍💻 Author
+Gaurav More
